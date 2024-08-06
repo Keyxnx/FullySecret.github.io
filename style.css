@@ -70,6 +70,7 @@ main {
     body {
         height: auto;
         touch-action: auto;
+        overflow: scroll;
     }
 
     .title {
