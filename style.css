@@ -3,7 +3,6 @@
     text-align: center;
     margin: auto 0;
     font-size: 30px;
-    
 }
 
 body {
@@ -19,7 +18,6 @@ main {
     width: 85%;
     margin: 0 auto;
     height: auto;
-    overflow: hidden;
 }
 
 .cards-gallery {
