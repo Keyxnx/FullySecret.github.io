@@ -83,10 +83,14 @@ main {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        touch-action: auto;
+        -ms-touch-action: auto;
         
     }
 
     .card {
         margin-top: 20px;
+        touch-action: auto;
+        -ms-touch-action: auto;
     }
   }
