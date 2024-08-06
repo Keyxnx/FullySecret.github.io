@@ -27,6 +27,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    touch-action: auto;
 }
 
 .card { 
