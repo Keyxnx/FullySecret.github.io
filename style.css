@@ -72,7 +72,7 @@ main {
 @media screen and (max-width: 900px) {
 
     body {
-        height: calc((420px * 4) + 300px);
+        height: auto;
         touch-action: auto;
     }
 
