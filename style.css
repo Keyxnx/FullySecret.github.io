@@ -68,8 +68,8 @@ main {
 @media screen and (max-width: 900px) {
 
     body {
-        overflow: scroll;
         height: calc((420px * 4) + 300px);
+        touch-action: auto;
     }
 
     .title {
