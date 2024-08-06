@@ -1,0 +1,90 @@
+
+.title {
+    text-align: center;
+    margin: auto 0;
+    font-size: 30px;
+    
+}
+
+body {
+    font-family: "Pacifico";
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    overflow: hidden;
+
+}
+
+main {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.cards-gallery {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card { 
+    
+    height: 420px; 
+    width: 285px; 
+    background-color: blanchedalmond;
+    border-radius: 35px;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    word-break: break-all;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.card .card-upper-image {
+    height: 65%;
+    background-color: red;
+    border-radius: 15px;
+    overflow: hidden;    
+}
+
+.card-image {
+    height: 100%;
+    width: 100%;
+}
+
+.card-lower-text { 
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+
+    body {
+        height: calc((420px * 4) + 300px);
+    }
+
+    .title {
+        font-size: 17px;
+        margin-top: 30px;
+    }
+
+    .cards-gallery {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+  }
